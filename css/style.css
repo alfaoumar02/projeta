@@ -1,0 +1,100 @@
+/*Etape 2 : Création du fichier css et liaison*/
+
+/*Initialisatioon de la page */
+* {
+	border : 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: "Opens Sans", sans-serif, arial, tahoma;
+}
+
+#menu-lateral {
+	background-color: rgb(5, 68, 104);
+	width: 250px;
+	height: 100%;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+/*Design du profil*/
+#menu-lateral #profil {
+	text-align: center;
+	color: #FFF;
+}
+#menu-lateral #profil img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid rgb(32, 44, 69);
+	margin: 0 auto;
+}
+
+#menu-lateral #profil h3 {
+	font-size: 1.5em;
+	margin-top: 15px;
+}
+#menu-lateral #profil p {
+	margin-top: -15px;
+	font-style: italic;
+}
+
+/*Style des liens du menu latéral*/
+#menu-lateral ul li a {
+	display: block;
+	color: #FFF;
+	padding: 13px 30px;
+	border-bottom: 1px solid #10558d;
+	font-size: 16px;
+	position: relative;
+	margin-left: -50px;
+}
+
+#menu-lateral ul li a:hover{
+	background-color: #FFF;
+	color: darkblue;
+	border-bottom: 2px solid rgb(5, 68, 104);
+}
+
+
+#menu-lateral ul li .active {
+	background-color: #FFF;
+	color: darkblue;
+	border-bottom: 2px solid rgb(5, 68, 104);
+}
+
+/*Style de la section */
+#section {
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+#section #topBar {
+	height: 55px;
+	background-color: rgb(32, 44, 69);
+	padding: 0 30px;
+	align-items: center;
+	margin-left: -10px;
+	margin-top: -30px;
+}
+
+#section #topBar a {
+	color: whitesmoke;
+	font-size: 1.5em;
+}
+
+#section #topBar a:hover {
+	color: lightblue;
+}
+
+/*Stylisation de la bannière */
+#section #banner {
+	height: 220px;
+	background-color: rgb(7, 105, 185);
+	color: #FFF;
+	margin-left: -10px;
+	margin-top: -30px;
+	text-align: center;
+	font-size: 1.5em;
+}

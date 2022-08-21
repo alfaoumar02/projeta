@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="utf-8">
+	<title>Page d'accueil | Shine-Press</title>
+	<!-- Liaison CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Liaison JS -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<div class="container-fluid">
+	<!-- Debut Menu de Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	  <div class="container-fluid">
+	    <a class="navbar-brand text-danger" href="index.html">Fiian</a>
+	    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarScroll">
+	      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+	        <li class="nav-item">
+	          <a class="nav-link active text-white" aria-current="page" href="index.html">Accueil</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	            E-BOUTIQUE
+	          </a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+	            <li><a class="dropdown-item" href="voiture.html">Voiture</a></li>
+	            <li><a class="dropdown-item" href="electronic.html">Technologie</a></li>
+
+	            <li><a class="dropdown-item" href="shop.html">SHOP</a></li>
+	          </ul>
+	        </li>
+			<li class="nav-item">
+		      <a class="nav-link text-white" href="blog.html">Blog</a>
+			</li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="register.html">INSCRIPTION</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link text-white" href="login.html">CONNEXION</a>
+	        </li>
+			<li class="nav-item">
+				<a class="nav-link text-white" href="about.html">A propos</a>
+			</li>
+	      </ul>
+	      <form class="d-flex">
+	        <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+	        <button class="btn btn-outline-success" type="submit">Chercher</button>
+	      </form>
+	    </div>
+	  </div>
+	</nav>
+	<!-- Fin Menu de Navigation -->
+
+	<!-- Debut Carousel -->
+
+	<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="images/banniere/banner01.png" class="d-block w-100" alt="...">
+	    </div>
+	    
+	    <div class="carousel-item">
+	      <img src="images/banniere/banner02.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="images/banniere/banner5.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	</div>
+	<!-- Fin Carousel -->
+
+	<hr>
+	<div class="card text-center bg-dark">
+	  <div class="card-body bg-danger" style="width: 75%; margin: auto;">
+	    <h3 class="card-title text-uppercase fs-2 text-white">Tout a commencé par une idée simple : créer des sites 
+	    	de qualité et bien conçus que je voulais moi-même
+	    </h3>
+	  </div>
+	</div>
+	<hr>
+
+	<hr>
+		<div style="width: 30%; margin: auto;">
+			<button class="btn btn-block w-100 bg-danger text-white fs-4">CATEGORIE DES PRODUITS</button>
+		</div>
+	<hr>
+
+	<!-- Début Intégration -->
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <!-- Catégorie 1 -->
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="images/img/product01.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b>Ordinateurs</b></h3>
+	        <p class="card-text fs-4 text-center">Parcourez notre Catégorie Ordinateur pour voir nos machines</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Parcourir la catégorie</button>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Fin Catégorie 1 -->
+
+	  <!-- Catégorie 2 -->
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="images/img/product10.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b>Tenu Sport</b></h3>
+	        <p class="card-text fs-4 text-center">Parcourez notre Catégorie Ordinateur pour voir nos tenus de sports</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Parcourir la catégorie</button>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Fin Catégorie 2 -->
+
+	  <!-- Catégorie 3 -->
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="images/img/product11.jpg" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b>Electroménager</b></h3>
+	        <p class="card-text fs-4 text-center">Parcourez notre Catégorie Ordinateur pour voir nos produits electromenager</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Parcourir la catégorie</button>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Fin Catégorie 3 -->
+
+
+	<!-- FIN Intégration -->
+	</div>
+
+	<hr>
+		<div style="width: 30%; margin: auto;">
+			<button class="btn btn-block w-100 bg-danger text-white fs-4">Voir tout nos produits</button>
+		</div>
+	<hr>
+
+
+	<!-- Début Intégration voir tout les produits ligne 1 -->
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+	  <!-- Catégorie 1 -->
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="images/img/product01.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b>MacBook</b></h3>
+	        <p class="card-text fs-4 text-center">Ordinateur portable MacBook</p>
+	        <p class="card-text fs-5 text-center text-danger">5 000 000 FG</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Fin Catégorie 1 -->
+
+	  <!-- Catégorie 2 -->
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="images/img/product02.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b> Casques</b></h3>
+	        <p class="card-text fs-4 text-center">Bluetooth sans fil</p>
+	        <p class="card-text fs-5 text-center text-danger"> 100 000 FG</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- Fin Catégorie 2 -->
+
+	  <!-- Catégorie 3 -->
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="images/img/product04.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b> Tablette</b></h3>
+	        <p class="card-text fs-4 text-center">Marque Sony</p>
+	        <p class="card-text fs-5 text-center text-danger">1 000 000 FG</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Catégorie 4 -->
+	  <div class="col-md-3">
+	    <div class="card h-100">
+	      <img src="images/img/product09.png" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h3 class="card-title fs-3 text-center"><b> Camera</b></h3>
+	        <p class="card-text fs-4 text-center">Rekam Digitale</p>
+	        <p class="card-text fs-5 text-center text-danger">1 500 000 FG</p>
+	      </div>
+	      <div class="card-footer">
+	        <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Fin Intégration voir tout les produits ligne 1 -->
+
+	<!-- Début Intégration voir tout les produits ligne 2 -->
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		<!-- Catégorie 1 -->
+		<div class="col-md-3">
+		  <div class="card h-100">
+			<img src="images/img/product15.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h3 class="card-title fs-3 text-center"><b> Tenu Sport</b></h3>
+			  <p class="card-text fs-4 text-center">Pour homme complet</p>
+			  <p class="card-text fs-5 text-center text-danger">600 000 FG</p>
+			</div>
+			<div class="card-footer">
+			  <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin Catégorie 1 -->
+  
+		<!-- Catégorie 2 -->
+		<div class="col-md-3">
+		  <div class="card h-100">
+			<img src="images/img/product14.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h3 class="card-title fs-3 text-center"><b> Extracteur Jus</b></h3>
+			  <p class="card-text fs-4 text-center">Machine pour jus</p>
+			  <p class="card-text fs-5 text-center text-danger"> 400 000 FG</p>
+			</div>
+			<div class="card-footer">
+			  <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+			</div>
+		  </div>
+		</div>
+		<!-- Fin Catégorie 2 -->
+  
+		<!-- Catégorie 3 -->
+		<div class="col-md-3">
+		  <div class="card h-100">
+			<img src="images/img/product12.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h3 class="card-title fs-3 text-center"><b> Congélateur</b></h3>
+			  <p class="card-text fs-4 text-center">Marque bush 6b</p>
+			  <p class="card-text fs-5 text-center text-danger">2 000 000 FG</p>
+			</div>
+			<div class="card-footer">
+			  <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+			</div>
+		  </div>
+		</div>
+  
+		<!-- Catégorie 4 -->
+		<div class="col-md-3">
+		  <div class="card h-100">
+			<img src="images/img/product13.png" class="card-img-top" alt="...">
+			<div class="card-body">
+			  <h3 class="card-title fs-3 text-center"><b> Lavabo</b></h3>
+			  <p class="card-text fs-4 text-center">Nettoyez vos habits</p>
+			  <p class="card-text fs-5 text-center text-danger">4 500 000 FG</p>
+			</div>
+			<div class="card-footer">
+			  <button class="btn btn-block bg-primary w-100 text-white">Achetez Maintenant</button>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<!-- Fin Intégration voir tout les produits ligne 2 -->
+
+	<!-- Temoignage client 1 -->
+	<hr>
+	<div class="card mb-3" style="max-width: 100%;">
+	    <div class="row g-0">
+			<div class="col-md-3">
+				<div  class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="images/blog3.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="images/blog1.jpg" class="d-block w-100" alt="...">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+			<div  class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card-body">
+						<h3 class="card-title fs-3 text-center text-danger">Témoignage de nos clients</h3>
+						<p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt u deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="card-body">
+						<h3 class="card-title fs-3 text-center text-danger"> de nos clients</h3>
+						<p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt u deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	<!-- fin Temoignage client 1 -->
+		
+	<!-- Temoignage client2 -->
+			<div class="col-md-3">
+			<div  class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="images/blog2.png" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="images/blog4.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-3">
+			<div  class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="card-body">
+						<h3 class="card-title fs-3 text-center text-danger">Témoignage de nos clients</h3>
+						<p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt u deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="card-body">
+						<h3 class="card-title fs-3 text-center text-danger"> de nos clients</h3>
+						<p class="card-text fs-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt u deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+	  </div>
+	</div>
+	<!-- Fin temoignage client 2 -->
+
+	<!-- Debut pied de page -->
+	<div class="container-fluid mt-2 mb-1">
+		<footer class="py-5 bg-dark">
+		<div class="row">
+			<div class="col-2 mx-2">
+			<h3 class="text-light">Liens Utils</h3>
+			<ul class="nav flex-column">
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Accueil</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"></a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+			</ul>
+			</div>
+
+			<div class="col-2">
+			<h3 class="text-light">Dev web</h3>
+			<ul class="nav flex-column">
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Java</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Html</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">CSS</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Php</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Python</a></li>
+			</ul>
+			</div>
+
+			<div class="col-2">
+			<h3 class="text-light">Boutique</h3>
+			<ul class="nav flex-column">
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Nos produits</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Electroniques</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Electromanager</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Habits</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Divers</a></li>
+			</ul>
+			</div>
+
+			<div class="col-4 offset-1">
+			<form>
+				<h5>Souscrire à notre newsletter</h5>
+				<p>Inscrivez vous pour ne rien ratez de nos prochains offres</p>
+				<div class="d-flex w-100 gap-2">
+				<label for="newsletter1" class="visually-hidden">Adresse Email</label>
+				<input id="newsletter1" type="text" class="form-control" placeholder="Adresse Email">
+				<button class="btn btn-primary" type="button">S'inscrire</button>
+				</div>
+			</form>
+			</div>
+		</div>
+
+		</footer>
+	</div>
+	<!-- Fin pied de page -->
+	</div>
+</body>
+</html>
+
+
+
